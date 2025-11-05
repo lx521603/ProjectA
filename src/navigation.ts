@@ -23,6 +23,5 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
   ],
   footNote: `
-    © ${new Date().getFullYear()} · Made with ❤️ using <a class="text-blue-600 underline dark:text-muted" href="https://astro.build">Astro</a> and <a class="text-blue-600 underline dark:text-muted" href="https://github.com/onwidget/astrowind">Astrowind</a>.
-  `,
+    `<div class="text-center">Next.yt © ${new Date().getFullYear()}</div>`,
 };
