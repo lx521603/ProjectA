@@ -133,8 +133,8 @@ export const headerData = {
 };
 
 export const footerData = {
-  /*links: [
-    {
+  links: [
+    /*{
       title: 'Product',
       links: [
         { text: 'Features', href: '#' },
@@ -178,11 +178,11 @@ export const footerData = {
         { text: 'Shop', href: '#' },
       ],
     },
-  ],
-  secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],*/
+  secondaryLinks: [
+    /*{ text: 'Terms', href: getPermalink('/terms') },
+    { text: 'Privacy Policy', href: getPermalink('/privacy') },*/
+  ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
@@ -191,6 +191,6 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Arthelokyo</a> · All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://91.pt">老李</a> · All rights reserved.
   `,
 };
