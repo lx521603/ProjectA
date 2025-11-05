@@ -92,7 +92,7 @@ export const headerData = {
       links: [
         {
           text: '首页',
-          href: href: getPermalink('/'),
+          href: getPermalink('/'),
         },
         {
           text: '博客',
