@@ -3,7 +3,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      /*text: 'Homes',
       links: [
         {
           text: 'SaaS',
@@ -86,40 +86,54 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: '菜单',*/
+
+          
       links: [
         {
-          text: 'Blog List',
+          text: '首页',
+          href: href: getPermalink('/'),
+        },
+        {
+          text: '博客',
           href: getBlogPermalink(),
         },
-        {
-          text: 'Article',
+       /* {
+          text: '文章',
           href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
+        },*/
         {
-          text: 'Article (with MDX)',
+          text: '文章',
           href: getPermalink('markdown-elements-demo-post', 'post'),
         },
         {
-          text: 'Category Page',
+          text: '分类',
           href: getPermalink('tutorials', 'category'),
         },
         {
-          text: 'Tag Page',
+          text: '标签',
           href: getPermalink('astro', 'tag'),
+        },
+        {
+          text: '关于',
+          href: getPermalink('/about'),
+        },
+        {
+          text: '联系',
+          href: getPermalink('/contact'),
         },
       ],
     },
-    {
+   /* {
       text: 'Widgets',
       href: '#',
-    },
+    },*/
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
+  actions: [{ text: '联系', href: '/contact', target: '_blank' }],
 };
 
 export const footerData = {
-  links: [
+  /*links: [
     {
       title: 'Product',
       links: [
@@ -168,7 +182,7 @@ export const footerData = {
   secondaryLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
-  ],
+  ],*/
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
