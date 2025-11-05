@@ -123,12 +123,12 @@ export const headerData = {
           href: getPermalink('/contact'),
         },
       ],
-    },
-   /* {
+   /* },
+    {
       text: 'Widgets',
       href: '#',
-    },*/
-  ],
+    },
+  ],*/
   actions: [{ text: '联系', href: '/contact', target: '_blank' }],
 };
 
