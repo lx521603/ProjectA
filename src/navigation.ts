@@ -88,47 +88,45 @@ export const headerData = {
     {
       text: '菜单',*/
 
-          
-      links: [
-        {
-          text: '首页',
-          href: getPermalink('/'),
-        },
-        {
-          text: '博客',
-          href: getBlogPermalink(),
-        },
-       /* {
-          text: '文章',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },*/
-        {
-          text: '文章',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: '分类',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: '标签',
-          href: getPermalink('astro', 'tag'),
-        },
-        {
-          text: '关于',
-          href: getPermalink('/about'),
-        },
-        {
-          text: '联系',
-          href: getPermalink('/contact'),
-        },
-      ],
-   /* },
+  links: [
     {
-      text: 'Widgets',
-      href: '#',
+      text: '首页',
+      href: getPermalink('/'),
     },
-  ],*/
+    {
+      text: '博客',
+      href: getBlogPermalink(),
+    },
+   /* {
+      text: '文章',
+      href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+    },*/
+    {
+      text: '文章',
+      href: getPermalink('markdown-elements-demo-post', 'post'),
+    },
+    {
+      text: '分类',
+      href: getPermalink('tutorials', 'category'),
+    },
+    {
+      text: '标签',
+      href: getPermalink('astro', 'tag'),
+    },
+    {
+      text: '关于',
+      href: getPermalink('/about'),
+    },
+    {
+      text: '联系',
+      href: getPermalink('/contact'),
+    },
+  ],
+  /*{
+    text: 'Widgets',
+    href: '#',
+  },
+],*/
   actions: [{ text: '联系', href: '/contact', target: '_blank' }],
 };
 
