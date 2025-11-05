@@ -2,30 +2,12 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    {
-      text: '主页',
-      href: getPermalink('/'),
-    },
-    {
-      text: '博客',
-      href: getBlogPermalink(),
-    },
-    {
-      text: '分类',
-      href: getPermalink('categories', 'category'),
-    },
-    {
-      text: '标签',
-      href: getPermalink('tags', 'tag'),
-    },
-    {
-      text: '关于',
-      href: getPermalink('/about'),
-    },
-    {
-      text: '联系',
-      href: getPermalink('/contact'),
-    },
+    { text: '主页', href: getPermalink('/'), links: [] },
+    { text: '博客', href: getBlogPermalink(), links: [] },
+    { text: '分类', href: getPermalink('categories', 'category'), links: [] },
+    { text: '标签', href: getPermalink('tags', 'tag'), links: [] },
+    { text: '关于', href: getPermalink('/about'), links: [] },
+    { text: '联系', href: getPermalink('/contact'), links: [] },
   ],
   actions: [],
 };
