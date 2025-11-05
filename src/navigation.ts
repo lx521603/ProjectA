@@ -22,6 +22,5 @@ export const footerData = {
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
   ],
-  footNote: `
-    `<div class="text-center">Next.yt © ${new Date().getFullYear()}</div>`,
+  footNote: `<div class="text-center">Next.yt © ${new Date().getFullYear()}</div>`,
 };
