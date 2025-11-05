@@ -175,8 +175,8 @@ export const footerData = {
         { text: 'Social Impact', href: '#' },
         { text: 'Shop', href: '#' },
       ],
-    },
-  ],*/
+    },*/
+  ],
   secondaryLinks: [
     /*{ text: 'Terms', href: getPermalink('/terms') },
     { text: 'Privacy Policy', href: getPermalink('/privacy') },*/
