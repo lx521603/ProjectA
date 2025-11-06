@@ -6,7 +6,6 @@ export const headerData = {
     { text: '博客', href: getBlogPermalink(), links: [] },
     { text: '分类', href: getPermalink('tutorials','category'), },
     { text: '标签', href: getPermalink('astro','tag'), },
-    { text: '关于', href: getPermalink('/about'), links: [] },
     { text: '联系', href: getPermalink('/contact'), links: [] },
   ],
   actions: [], // 不需要按钮
