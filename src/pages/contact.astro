@@ -12,32 +12,32 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText tagline="Contact" title="Let's Connect!" />
+  <HeroText tagline="Contact" title="联系我!" />
 
   <ContactUs
     id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
+    title="给我发消息"
+    subtitle="有什么好的想法、点子、可以薅的羊毛，请告诉我"
     inputs={[
       {
         type: 'text',
         name: 'name',
-        label: 'Name',
+        label: '昵称',
       },
       {
         type: 'email',
         name: 'email',
-        label: 'Email',
+        label: '电子邮件',
       },
     ]}
     textarea={{
-      label: 'Message',
+      label: '信息',
     }}
     disclaimer={{
       label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+        '提交此联系表格，即表示您承认并同意收集您的个人信息',
     }}
-    description="Our support team typically responds within 24 business hours."
+    description="24 小时内必回"
   />
 
   <!-- Features2 Widget ************** -->
@@ -46,33 +46,9 @@ const metadata = {
     title="We are here to help!"
     items={[
       {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
-      },
-      {
-        title: 'Contact sales',
-        description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
-      },
-      {
-        title: 'Technical support',
-        description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
-      },
-      {
-        title: 'Phone',
-        description: '+1 (234) 567-890',
-        icon: 'tabler:headset',
-      },
-      {
         title: 'Email',
-        description: 'contact@support.com',
+        description: 'x@glee.ch',
         icon: 'tabler:mail',
-      },
-      {
-        title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
-        icon: 'tabler:map-pin',
       },
     ]}
   />
