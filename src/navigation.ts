@@ -4,8 +4,8 @@ export const headerData = {
   links: [
     { text: '主页', href: getPermalink('/'), links: [] },
     { text: '博客', href: getBlogPermalink(), links: [] },
-    { text: '分类', href: getPermalink('tutorials', 'category'), },
-    { text: '标签', href: getPermalink('astro', 'tag'), },
+    { text: '分类', href: getPermalink('category'), },
+    { text: '标签', href: getPermalink('tag'), },
     { text: '关于', href: getPermalink('/about'), links: [] },
     { text: '联系', href: getPermalink('/contact'), links: [] },
   ],
