@@ -62,11 +62,11 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
   const updateDate = rawUpdateDate ? new Date(rawUpdateDate) : undefined;
 
   const category = rawCategory
-    ? {
-        slug: cleanSlug(rawCategory),
-        title: rawCategory,
-      }
-    : undefined;
+  ? {
+      slug: rawCategory,  // ← 直接使用中文
+      title: rawCategory,
+    }
+  : undefined;
 
   const tags = rawTags.map((tag: string) => ({
     slug: cleanSlug(tag),
