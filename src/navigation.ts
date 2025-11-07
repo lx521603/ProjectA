@@ -19,7 +19,7 @@ export const footerData = {
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/punch.sai' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com' },
   ],
-  footNote: `<div class="text-center">Next.yt © ${new Date().getFullYear()}</div>`,
+  footNote: `<div class="text-center">PUNCH.ONE © ${new Date().getFullYear()}</div>`,
 };
