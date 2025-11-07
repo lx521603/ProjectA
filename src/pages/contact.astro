@@ -12,22 +12,21 @@ const metadata = {
   <!-- HeroText Widget ******************* -->
   <HeroText tagline="Contact" title="联系我!" />
 
-  <!-- 直接显示联系信息，不使用表单 -->
-  <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl text-center">
-    <h2 class="text-2xl font-bold mb-4">有什么好的想法、点子、可以薅的羊毛，请告诉我</h2>
-    <p class="text-gray-600 mb-8">24 小时内必回</p>
+  <!-- 紧凑的联系信息 -->
+  <section class="px-4 md:px-6 py-8 mx-auto max-w-4xl text-center">
+    <h2 class="text-xl font-bold mb-3">有什么好的想法、点子、可以薅的羊毛，请告诉我</h2>
+    <p class="text-gray-600 mb-6">有信必回</p>
+    
+    <!-- 直接使用 Features2 的样式但去掉标题 -->
+    <Features2
+      items={[
+        {
+          title: 'Email',
+          description: 'x@glee.ch',
+          icon: 'tabler:mail',
+          link: 'mailto:x@glee.ch'
+        },
+      ]}
+    />
   </section>
-
-  <!-- Features2 Widget ************** -->
-  <Features2
-    title="有信必回"
-    items={[
-      {
-        title: 'Email',
-        description: 'x@glee.ch',
-        icon: 'tabler:mail',
-        link: 'mailto:x@glee.ch'  // 添加邮件链接
-      },
-    ]}
-  />
 </Layout>
