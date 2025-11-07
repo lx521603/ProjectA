@@ -69,8 +69,8 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
   : undefined;
 
   const tags = rawTags.map((tag: string) => ({
-    slug: cleanSlug(tag),
-    title: tag,
+  slug: tag.replace(/\s+/g, '-'),  // 同样直接使用或简单处理
+  title: tag,
   }));
 
   return {
