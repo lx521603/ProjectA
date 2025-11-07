@@ -1,6 +1,6 @@
 site:
-  name: Next
-  site: 'https://next.yt'
+  name: PUNCH.ONE
+  site: 'https://punch.one'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Next
-    template: '%s — next.yt'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: punch.one
+    template: '%s — punch.one'
+  description: "\U0001F680 下一程，慢生活"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Next
+    site_name: PUNCH.one
     images:
       - url: '~/assets/images/default.png'
         width: 1200
