@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
   title: 'Contact',
@@ -13,20 +12,16 @@ const metadata = {
   <HeroText tagline="Contact" title="联系我!" />
 
   <!-- 紧凑的联系信息 -->
-  <section class="px-4 md:px-6 py-8 mx-auto max-w-4xl text-center">
-    <h2 class="text-xl font-bold mb-3">有什么好的想法、点子、可以薅的羊毛，请告诉我</h2>
-    <p class="text-gray-600 mb-6">有信必回</p>
+  <section class="px-4 md:px-6 py-6 mx-auto max-w-2xl text-center">
+    <h2 class="text-lg font-semibold mb-2">有什么好的想法、点子、可以薅的羊毛，请告诉我</h2>
+    <p class="text-gray-600 mb-4">24 小时内必回</p>
     
-    <!-- 直接使用 Features2 的样式但去掉标题 -->
-    <Features2
-      items={[
-        {
-          title: 'Email',
-          description: 'x@glee.ch',
-          icon: 'tabler:mail',
-          link: 'mailto:x@glee.ch'
-        },
-      ]}
-    />
+    <!-- 简洁的联系方式 -->
+    <div class="flex justify-center items-center gap-2 p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900">
+      <svg class="w-5 h-5 text-gray-600 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+      </svg>
+      <a href="mailto:x@glee.ch" class="text-blue-600 hover:text-blue-800 font-medium">x@glee.ch</a>
+    </div>
   </section>
 </Layout>
