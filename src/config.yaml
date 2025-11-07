@@ -28,7 +28,7 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: zh-CN
+  language: en
   textDirection: ltr
 
 apps:
