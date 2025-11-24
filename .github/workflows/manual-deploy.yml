@@ -21,7 +21,7 @@ jobs:
           #cache: npm
 
       - name: Install dependencies
-        run: npm imstall
+        run: npm install
 
       - name: Build project
         run: npm run build
