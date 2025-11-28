@@ -74,7 +74,7 @@ export default defineConfig({
   ],
 
   image: {
-    domains: ['cdn.pixabay.com','img.sorayt.cn'],
+    domains: ['cdn.pixabay.com','img.sorayt.cn','*.alphacoders.com'],
   },
 
   markdown: {
